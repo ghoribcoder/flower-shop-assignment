@@ -1,0 +1,69 @@
+/* Primary Indexing */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+/* COLOR INDEXING */
+.fs-color-primary {
+    color: #E55473;
+}
+
+.fs-color-heading {
+    color: #272727;
+}
+
+.fs-color-text {
+    color: rgba(39, 39, 39, 0.60);
+}
+/* TEXT INDEXING */
+.fs-h1 {
+font-size: 80px;
+font-weight: 700;
+}
+.fs-h3{
+text-align: center;
+font-size: 40px;
+font-weight: 700;
+}
+.fs-p{
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.fs-btn-primary{
+    border-radius: 8px;
+    background: #E55473;
+    color: #fff;
+    border: 1px solid #E55473;
+    padding: 20px 43px;
+}
+.fs-btn-primary:hover{
+    border-radius: 8px;
+    background: #ffffff;
+    color: #E55473;
+    border: 1px solid #E55473;
+    padding: 20px 43px;
+}
+/* LAYOUT INDEXING */
+.fs-container{
+    width: 980px;
+    margin: 0 auto;
+}
+
+/* HERO SECTION STYLE */
+.fs-hero{
+    background-color:  rgba(229, 84, 115, 0.10);
+    width: 100%;
+}
+.fs-hero-section{
+    display: flex;
+    justify-content: center;
+}
+.fs-hero-content-col{
+   padding: 200px 0 150px 0px; 
+}
+.fs-hero-img{
+    width: 600px;
+}
