@@ -4,6 +4,7 @@
     padding: 0;
     font-family: 'Lato', sans-serif;
 }
+
 /* COLOR INDEXING */
 .fs-color-primary {
     color: #E55473;
@@ -16,65 +17,228 @@
 .fs-color-text {
     color: rgba(39, 39, 39, 0.60);
 }
+
 /* TEXT INDEXING */
 .fs-h1 {
-font-size: 70px;
-font-weight: 700;
-}
-.fs-h3{
-text-align: center;
-font-size: 40px;
-font-weight: 700;
+    font-size: 70px;
+    font-weight: 700;
 }
 
-.fs-p{
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px; /* 166.667% */
+.fs-h3 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
 }
-.fs-btn-primary{
+
+.fs-p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.fs-btn-primary {
     border-radius: 8px;
     background: #E55473;
     color: #fff;
     border: 1px solid #E55473;
     padding: 20px 43px;
 }
-.fs-btn-primary:hover{
+
+.fs-btn-primary:hover {
     border-radius: 8px;
     background: #ffffff;
     color: #E55473;
     border: 1px solid #E55473;
     padding: 20px 43px;
 }
+
 /* LAYOUT INDEXING */
-.fs-container{
+.fs-container {
     width: 980px;
     margin: 0 auto;
 }
 
 /* HERO SECTION STYLE */
-.fs-hero{
-    background-color:  rgba(229, 84, 115, 0.10);
+.fs-hero {
+    background-color: rgba(229, 84, 115, 0.10);
     width: 100%;
 }
-.fs-hero-section{
+
+.fs-hero-section {
     display: flex;
     justify-content: center;
     background-image: url('../images/pngwing\ 10.png');
     background-position: right bottom;
     background-repeat: no-repeat;
     background-size: 400px 600px;
-   
+
 }
 
-.fs-hero-p{
+.fs-hero-p {
     text-align: left;
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px; /* 166.667% */
+    line-height: 30px;
+    /* 166.667% */
     padding: 32px 30px 32px 0;
-    }
-.fs-hero-content-col{
-   padding: 200px 35% 150px 0px; 
 }
+
+.fs-hero-content-col {
+    padding: 200px 35% 150px 0px;
+}
+
+/* Main Section Style */
+.fs-main {
+    padding: 100px;
+}
+
+/* Feature Section Style */
+.fs-feature-img-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.fa-feature-img {
+    width: 150px;
+}
+
+.fs-feature-img-col {
+    padding: 100px 70px 0 70px;
+    margin: 0 12px 0 12px;
+    border-radius: 45% 45% 0 0;
+}
+
+.fs-feature-img-col-1 {
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.fs-feature-img-col-2 {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.fs-feature-img-col-3 {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.fs-feature-img-title {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fs-feature-img-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    /* 145.833% */
+    text-decoration-line: underline;
+    margin-top: 30px;
+}
+
+/* Fun Fact Section Style */
+.fs-fun-section {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 86px 100px;
+    margin-top: 100px;
+}
+
+.fs-fun-col {
+    text-align: center;
+}
+
+.fs-fun-img {
+    width: 68px;
+    margin-bottom: 24px;
+}
+
+.fs-fun-content {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Deal Section Style */
+.fs-deal-section{
+    background: rgba(229, 84, 115, 0.05);
+    margin: 100px 0;
+   
+}
+.fs-deal-img{
+    width: 200px;
+}
+.fs-deal-section .fs-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+.fs-deal-content{
+    width: 60%;
+    align-self: center;
+    text-align: center;
+}
+.fs-deal-p{
+    margin-top: 24px;
+}
+.fs-deal-btn{
+    margin-top: 50px;
+}
+/* Insta Section Style */
+.fs-insta-img-col{
+    display: flex;
+    justify-content: space-between;
+}
+.fs-insta-img{
+    width: 230px;
+    margin: 5px;
+}
+.fs-insta-p{
+    margin: 14px 0 50px 0;
+}
+
+/* CTA Section */
+.fs-cta-section{
+    background-image: url('../images/rectangle\ 9.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    padding: 120px;
+    text-align: center;
+    margin-top: 100px;
+}
+.fs-cta-form{
+    margin-top: 50px;
+}
+.fs-cta-form input[type=email], select {
+    width: 60%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+
+  /* Footer Style */
+  .fs-footer{
+    background-color:  #111010;
+    text-align: center;
+    padding: 128px 0;
+  }
+  .fs-color-footer{
+    color: #fff;
+  }
+  .fs-footer-p{
+    margin: 32px 0;
+  }
+  .fs-cw{
+    color: rgba(255, 255, 255, 0.40);
+font-size: 16px;
+font-weight: 400;
+  }
